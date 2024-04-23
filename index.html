@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+ 
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ColorGame</title>
+
+    <script src="./script.js" defer></script>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+ 
+
+<body>
+
+ 
+
+    <section>
+
+        <div class="options">
+
+            <h1>Color Game</h1>
+
+            <h2>Chose Level</h2>
+
+            <button onclick="playGame(3)">Easy</button>
+
+            <button onclick="playGame(6)">Medium</button>
+
+            <button onclick="playGame(9)">Hard</button>
+
+            <button onclick="resetGame()">Reset</button>
+
+            <button onclick="swapColorFormat()">Swap</button>
+
+            <h3 id="color">Guess Color :</h3>
+
+            <h3 id="score">Score:</h3>
+
+        </div>
+
+        <div class="content">
+
+            <div class="box"></div>
+
+            <div class="box"></div>
+
+            <div class="box"></div>
+
+            <div class="box"></div>
+
+            <div class="box"></div>
+
+            <div class="box"></div>
+
+            <div class="box"></div>
+
+            <div class="box"></div>
+
+            <div class="box"></div>
+
+        </div>
+
+    </section>
+
+</body>
+
+ 
+
+</html>

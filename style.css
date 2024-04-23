@@ -1,0 +1,203 @@
+*{
+
+    padding: 0;
+
+    margin: 0;
+
+    box-sizing: border-box;
+
+    text-align: center;
+
+}
+
+ 
+
+.options {
+
+    margin: 30px auto;
+
+    max-width: 500px;
+
+}
+
+.options button{
+
+    margin: 25px;
+
+    width: 100px;
+
+    padding: 10px;
+
+    border-radius:12px;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+.options button:nth-child(3){
+
+    background-color: rgb(54, 113, 34);
+
+    color: rgb(255, 255, 255);
+
+}
+
+.options button:nth-child(3):hover{
+
+    background-color: rgb(123, 182, 105);
+
+    color: rgb(255, 255, 255);
+
+}
+
+ 
+
+.options button:nth-child(4){
+
+    background-color: rgb(222, 229, 21);
+
+    color: rgb(34, 32, 36);
+
+}
+
+.options button:nth-child(4):hover{
+
+    background-color: rgb(199, 176, 3);
+
+    color: rgb(255, 255, 255);
+
+}
+
+ 
+
+.options button:nth-child(5){
+
+    background-color: rgb(194, 48, 12);
+
+    color: rgb(34, 32, 36);
+
+ 
+
+}
+
+.options button:nth-child(5):hover{
+
+    background-color: rgb(127, 22, 9);
+
+    color: rgb(255, 255, 255);
+
+}
+
+ 
+
+.options button:nth-child(6){
+
+    background-color: rgb(12, 97, 194);
+
+    color: rgb(223, 220, 225);
+
+}
+
+ 
+
+.options button:nth-child(6):hover{
+
+    background-color: rgb(16, 149, 232);
+
+    color: rgb(255, 255, 255);
+
+}
+
+.options button:nth-child(7){
+
+    background-color: rgb(30, 68, 113);
+
+    color: rgb(223, 220, 225);
+
+}
+
+.options button:nth-child(7):hover{
+
+    background-color: rgb(16, 44, 61);
+
+    color: rgb(255, 255, 255);
+
+}
+
+ 
+
+.options h1{
+
+    font-size: 72px;
+
+    background: -webkit-linear-gradient(#524141, #3a853d);
+
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+ 
+
+}
+
+ 
+
+.options h2{
+
+    font-size: 45px;
+
+    background: -webkit-linear-gradient(#227046, #172d9a);
+
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+    margin: 20px 0;
+
+}
+
+ 
+
+.options h3{
+
+    margin-top:25px;
+
+    text-align: center;
+
+    color: cadetblue;
+
+    font-size: 25px;
+
+}
+
+.content{
+
+    margin: 20px auto;
+
+    width: 500px;
+
+    display:grid;
+
+    grid-template-columns: repeat(3,1fr);
+
+    justify-items: center;
+
+    gap: 20px;
+
+}
+
+.content div {
+
+    width: 120px;
+
+    height: 80px;
+
+    border: 1px solid black;
+
+    border-radius:15px;
+
+    cursor: pointer;
+
+}
